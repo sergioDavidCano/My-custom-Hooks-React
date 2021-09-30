@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+//Este hook es para el manejo de peticiones con fecth
 export const useFecth = (url) => {
     const isMounted = useRef(true);
     const [state, setState] = useState({
